@@ -934,6 +934,7 @@ textarea.input {
   resize: vertical;
   padding: 0px 0px;
 }.product-block {
+  margin-top: 32px;
   margin-bottom: 48px;
   font-weight: 500;
 }
@@ -1142,7 +1143,12 @@ textarea.input {
   width: 100%;
 }
 .product-block__buy, .product-block__btn {
+  max-width: fit-content;
   min-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   font-weight: 600;
   font-size: 18px;
   border-radius: 8px;
