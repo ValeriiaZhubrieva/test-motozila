@@ -187,6 +187,14 @@ body {
 .swiper-pagination-lock,
 .swiper-scrollbar-lock {
   display: none !important;
+}[data-fls-showmore-button] span:last-child {
+  display: none;
+}
+.--showmore-active [data-fls-showmore-button] span {
+  display: none;
+}
+.--showmore-active [data-fls-showmore-button] span:last-child {
+  display: block;
 }@font-face {
 	font-family: "lg";
 	src: url("../assets/fonts/lg.woff2?io9a6k") format("woff2");
@@ -1712,6 +1720,16 @@ textarea.input {
   font-weight: 600;
   font-size: 18px;
   line-height: 125%;
+}
+.product-detail__showmore {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.product-detail__text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .product-detail__list {
   display: flex;
