@@ -2042,6 +2042,45 @@ textarea.input {
   width: 32px;
   height: 32px;
 }
+.reviews-block__no-reviews .reviews-block__right {
+  max-width: 316px;
+  margin: 0 auto;
+}
+.reviews-block__img {
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background-color: #f3faff;
+  overflow: hidden;
+  display: grid;
+  align-content: end;
+  justify-content: center;
+  min-height: 222px;
+}
+.reviews-block__img img {
+  max-width: 340px;
+  width: 100%;
+  object-fit: cover;
+}
+.reviews-block__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+.reviews-block__content:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.reviews-block__title {
+  line-height: 125%;
+  font-size: 20px;
+  font-weight: 600;
+}
+.reviews-block__subtitle {
+  line-height: 125%;
+  font-size: 18px;
+  line-height: 125%;
+  color: #6a6b81;
+}
 
 .reviews-card {
   background-color: #fafafa;
