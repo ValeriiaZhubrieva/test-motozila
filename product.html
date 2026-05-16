@@ -10,8 +10,8 @@
 		<title>product</title>
 		<script defer src="./js/popper.min.js"></script>
 		<script defer src="./js/tippy-bundle.umd.min.js"></script>
-		<script defer src="./js/app.min.js?v=1778833276997"></script>
-		<link rel="stylesheet" href="./css/app.min.css?v=1778833276997">
+		<script defer src="./js/app.min.js?v=1778926354552"></script>
+		<link rel="stylesheet" href="./css/app.min.css?v=1778926354552">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -3404,8 +3404,8 @@
 				</nav>
 			</header>
 			<!--
-<script defer src="@js/custom/popper.min.js?v=1778833276997"></script>
-<script defer src="@js/custom/tippy-bundle.umd.min.js?v=1778833276997"></script>
+<script defer src="@js/custom/popper.min.js?v=1778926354552"></script>
+<script defer src="@js/custom/tippy-bundle.umd.min.js?v=1778926354552"></script>
 -->
 			<main class="page">
 				<div class="bread-crumbs">
@@ -3571,6 +3571,7 @@
 										</svg>
 										<span>Купити в 1 клік</span>
 									</button>
+									<button data-fls-popup-link="popup-credit" type="button" class="product-block__credit">Оплатити частинами</button>
 								</div>
 								<form action="#" class="buy-one-click">
 									<div class="buy-one-click__title">Замовити без оформлення</div>
@@ -5678,6 +5679,625 @@
 								<div class="fav-block__btns">
 									<a href="#" class="fav-block__btn dark-btn">До каталогу</a>
 								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-fls-popup="popup-credit" aria-hidden="true" class="popup popup--credit">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<div class="popup__head">
+						<div class="popup__title">Виберіть кредитну пропозицію</div>
+						<button data-fls-popup-close="" type="button" class="popup__close">
+							<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12.0007 10.586L16.9507 5.63599L18.3647 7.04999L13.4147 12L18.3647 16.95L16.9507 18.364L12.0007 13.414L7.05072 18.364L5.63672 16.95L10.5867 12L5.63672 7.04999L7.05072 5.63599L12.0007 10.586Z" fill="currentColor"></path>
+							</svg>
+						</button>
+					</div>
+					<div data-fls-popup-content="" class="popup__content">
+						<div class="popup__credit credit-block">
+							<div class="credit-block__body">
+								<div class="credit-block__head">
+									<div class="credit-block__total">
+										<div class="credit-block__title">
+											Товари
+											<span class="credit-block__count">2</span>
+										</div>
+										<div class="credit-block__price">11 599 ₴</div>
+									</div>
+									<div class="credit-block__products">
+										<div class="credit-block__product">
+											<a href="#" class="credit-block__product-img">
+												<img alt="Image" loading="lazy" src="./assets/img/1009634.568x0.webp">
+											</a>
+											<div class="credit-block__product-body">
+												<div class="credit-block__product-price">11 599 ₴</div>
+												<div class="credit-block__product-count">x 1 од.</div>
+											</div>
+										</div>
+										<div class="credit-block__product">
+											<a href="#" class="credit-block__product-img">
+												<img alt="Image" loading="lazy" src="./assets/img/1009634.568x0.webp">
+											</a>
+											<div class="credit-block__product-body">
+												<div class="credit-block__product-price">11 599 ₴</div>
+												<div class="credit-block__product-count">x 1 од.</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="credit-block__delivery">
+									<div class="credit-block__delivery-head">
+										<div class="credit-block__delivery-title">Оберіть спосіб доставки</div>
+										<div class="credit-block__delivery-subtitle">впливає на кредитні пропозиції</div>
+									</div>
+									<div data-sel-block="" data-sel-block-placeholder="Вкажіть спосіб доставки" class="credit-block__sel sel-block">
+										<div class="sel-block__current" data-sel-block-current="">
+											<input autocomplete="off" type="text" name="delivery" placeholder="Вкажіть спосіб доставки" class="sel-block__input" readonly data-sel-block-input="">
+											<span class="sel-block__arrow">
+												<svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M10.4167 10.9092L14.6298 6.6665L15.8333 7.87847L10.4167 13.3332L5 7.87847L6.20351 6.6665L10.4167 10.9092Z" fill="currentColor"></path>
+												</svg>
+											</span>
+										</div>
+										<div class="sel-block__dropdown" data-sel-block-dropdown="">
+											<div class="sel-block__scroll">
+												<div class="sel-block__options">
+													<button data-sel-block-btn="" type="button" class="sel-block__option">Самовивіз з магазину</button>
+													<button data-sel-block-btn="" type="button" class="sel-block__option">До відділення Нова пошта</button>
+													<button data-sel-block-btn="" type="button" class="sel-block__option">У поштомат Нова Пошта</button>
+													<button data-sel-block-btn="" type="button" class="sel-block__option">До відділення Meest ПОШТА</button>
+													<button data-sel-block-btn="" type="button" class="sel-block__option">У поштомат Meest ПОШТА</button>
+													<button data-sel-block-btn="" type="button" class="sel-block__option">Кур'єр Нова пошта</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-fls-spollers="" data-fls-spollers-one="" class="credit-block__banks">
+									<details class="credit-block__bank bank-block">
+										<summary class="bank-block__header">
+											<div class="bank-block__header-icon">
+												<img src="./assets/img/banks/privat.svg" alt="Image" loading="lazy">
+											</div>
+											<div class="bank-block__header-body">
+												<div class="bank-block__header-content">
+													<div class="bank-block__header-title">Оплата частинами ПриватБанк</div>
+													<div class="bank-block__header-info">від 3 до 18 платежів</div>
+												</div>
+												<div class="bank-block__header-descr">
+													<div class="bank-block__header-payment">Без першого платежу</div>
+													<div class="bank-block__header-price">
+														<div class="bank-block__header-amount">645₴</div>
+														<div class="bank-block__header-months">x 18 міс</div>
+													</div>
+												</div>
+											</div>
+											<div class="bank-block__header-arrow">
+												<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M11.9997 13.1717L16.9497 8.22168L18.3637 9.63568L11.9997 15.9997L5.63574 9.63568L7.04974 8.22168L11.9997 13.1717Z" fill="currentColor"></path>
+												</svg>
+											</div>
+										</summary>
+										<div class="bank-block__body">
+											<div class="bank-block__options" data-pseudo-options="">
+												<button type="button" class="bank-block__option">3 місяці</button>
+												<button type="button" class="bank-block__option">5 місяців</button>
+												<button type="button" class="bank-block__option">7 місяців</button>
+												<button type="button" class="bank-block__option">10 місяців</button>
+												<button type="button" class="bank-block__option is-active">18 місяців</button>
+											</div>
+											<div class="bank-block__rows">
+												<div class="bank-block__row">
+													<div class="bank-block__label">Сума в кредит</div>
+													<div class="bank-block__value">11 599 ₴</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Кількість платежів</div>
+													<div class="bank-block__value">18</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Щомісячний платіж</div>
+													<div class="bank-block__value">683 ₴</div>
+												</div>
+											</div>
+											<div class="bank-block__info">
+												<div class="bank-block__info-icon">
+													<img src="./assets/img/banks/diia.svg" alt="Image" loading="lazy">
+												</div>
+												<div class="bank-block__info-text">
+													Для оформлення цього типу кредиту потрібен застосунок
+													<b>Дія</b>
+													та
+											підключений
+													<b>Дія.Підпис.</b>
+												</div>
+											</div>
+											<div class="bank-block__steps">
+												<p>Після оформлення замовлення:</p>
+												<ol>
+													<li>Заповнюєте заявку</li>
+													<li>Отримуєте пропозиції від банків</li>
+													<li>Обираєте найзручніші для себе умови кредиту</li>
+												</ol>
+											</div>
+											<div class="bank-block__bottom">
+												<a href="#" class="bank-block__btn green-btn btn--fw">Оформити товар щастинами або кредит</a>
+												<div class="bank-block__agreement">Натискаючи на кнопку, ви погоджуєтеся на передачу персональних даних</div>
+											</div>
+										</div>
+									</details>
+									<details class="credit-block__bank bank-block">
+										<summary class="bank-block__header">
+											<div class="bank-block__header-icon">
+												<img src="./assets/img/banks/PUMB_SCH_logo_2.svg" alt="Image" loading="lazy">
+											</div>
+											<div class="bank-block__header-body">
+												<div class="bank-block__header-content">
+													<div class="bank-block__header-title">Плата частинами ПУМБ</div>
+													<div class="bank-block__header-info">від 3 до 18 платежів</div>
+												</div>
+												<div class="bank-block__header-descr">
+													<div class="bank-block__header-price">
+														<div class="bank-block__header-amount">645₴</div>
+														<div class="bank-block__header-months">x 18 міс</div>
+													</div>
+												</div>
+											</div>
+											<div class="bank-block__header-arrow">
+												<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M11.9997 13.1717L16.9497 8.22168L18.3637 9.63568L11.9997 15.9997L5.63574 9.63568L7.04974 8.22168L11.9997 13.1717Z" fill="currentColor"></path>
+												</svg>
+											</div>
+										</summary>
+										<div class="bank-block__body">
+											<div class="bank-block__options" data-pseudo-options="">
+												<button type="button" class="bank-block__option">3 місяці</button>
+												<button type="button" class="bank-block__option">5 місяців</button>
+												<button type="button" class="bank-block__option">7 місяців</button>
+												<button type="button" class="bank-block__option">10 місяців</button>
+												<button type="button" class="bank-block__option is-active">18 місяців</button>
+											</div>
+											<form action="#" class="bank-block__form">
+												<div class="bank-block__field">
+													<input autocomplete="off" type="text" name="payment" placeholder="Сума першого внеску" class="bank-block__input input is-error">
+													<button type="submit" class="bank-block__btn green-btn" disabled>Ввести</button>
+												</div>
+												<div class="form-error">
+													Спробуйте зменшити суму першого внеску до 11299. Або оберіть інший метод
+											оплати
+												</div>
+											</form>
+											<div class="bank-block__rows">
+												<div class="bank-block__row">
+													<div class="bank-block__label">Сума в кредит</div>
+													<div class="bank-block__value">11 599 ₴</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Кількість платежів</div>
+													<div class="bank-block__value">17</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Щомісячний платіж</div>
+													<div class="bank-block__value">683 ₴</div>
+												</div>
+											</div>
+											<div class="bank-block__bottom">
+												<a href="#" class="bank-block__btn green-btn btn--fw">Оформити товар щастинами або кредит</a>
+												<div class="bank-block__agreement">Натискаючи на кнопку, ви погоджуєтеся на передачу персональних даних</div>
+											</div>
+										</div>
+									</details>
+									<details class="credit-block__bank bank-block">
+										<summary class="bank-block__header">
+											<div class="bank-block__header-icon">
+												<img src="./assets/img/banks/%D0%9B%D0%B5%D0%B3%D0%BA%D0%B0%20%D1%80%D0%BE%D0%B7%D1%81%D1%82%D1%80%D0%BE%D1%87%D0%BA%D0%B0%201.svg" alt="Image" loading="lazy">
+											</div>
+											<div class="bank-block__header-body">
+												<div class="bank-block__header-content">
+													<div class="bank-block__header-title">Плата частинами Sense bank</div>
+													<div class="bank-block__header-info">від 3 до 18 платежів</div>
+												</div>
+												<div class="bank-block__header-descr">
+													<div class="bank-block__header-payment">Без першого платежу</div>
+													<div class="bank-block__header-price">
+														<div class="bank-block__header-amount">645₴</div>
+														<div class="bank-block__header-months">x 18 міс</div>
+													</div>
+												</div>
+											</div>
+											<div class="bank-block__header-arrow">
+												<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M11.9997 13.1717L16.9497 8.22168L18.3637 9.63568L11.9997 15.9997L5.63574 9.63568L7.04974 8.22168L11.9997 13.1717Z" fill="currentColor"></path>
+												</svg>
+											</div>
+										</summary>
+										<div class="bank-block__body">
+											<div class="bank-block__options" data-pseudo-options="">
+												<button type="button" class="bank-block__option">3 місяці</button>
+												<button type="button" class="bank-block__option">5 місяців</button>
+												<button type="button" class="bank-block__option">7 місяців</button>
+												<button type="button" class="bank-block__option">10 місяців</button>
+												<button type="button" class="bank-block__option is-active">18 місяців</button>
+											</div>
+											<form action="#" class="bank-block__form">
+												<div class="bank-block__field">
+													<input autocomplete="off" type="text" name="payment" placeholder="Сума першого внеску" class="bank-block__input input">
+													<button type="submit" class="bank-block__btn green-btn" disabled>Ввести</button>
+												</div>
+											</form>
+											<div class="bank-block__rows">
+												<div class="bank-block__row">
+													<div class="bank-block__label">Сума в кредит</div>
+													<div class="bank-block__value">11 599 ₴</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Кількість платежів</div>
+													<div class="bank-block__value">17</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Щомісячний платіж</div>
+													<div class="bank-block__value">683 ₴</div>
+												</div>
+											</div>
+											<div class="bank-block__bottom">
+												<a href="#" class="bank-block__btn green-btn btn--fw">Оформити товар щастинами або кредит</a>
+												<div class="bank-block__agreement">Натискаючи на кнопку, ви погоджуєтеся на передачу персональних даних</div>
+											</div>
+										</div>
+									</details>
+									<details class="credit-block__bank bank-block">
+										<summary class="bank-block__header">
+											<div class="bank-block__header-icon">
+												<img src="./assets/img/banks/A_Aqua_Stroke%20Aqua_without%20background.svg" alt="Image" loading="lazy">
+											</div>
+											<div class="bank-block__header-body">
+												<div class="bank-block__header-content">
+													<div class="bank-block__header-title">Оплата частинами від Alliance</div>
+													<div class="bank-block__header-info">від 3 до 18 платежів</div>
+												</div>
+												<div class="bank-block__header-descr">
+													<div class="bank-block__header-payment">Без першого платежу</div>
+													<div class="bank-block__header-price">
+														<div class="bank-block__header-amount">645₴</div>
+														<div class="bank-block__header-months">x 18 міс</div>
+													</div>
+												</div>
+											</div>
+											<div class="bank-block__header-arrow">
+												<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M11.9997 13.1717L16.9497 8.22168L18.3637 9.63568L11.9997 15.9997L5.63574 9.63568L7.04974 8.22168L11.9997 13.1717Z" fill="currentColor"></path>
+												</svg>
+											</div>
+										</summary>
+										<div class="bank-block__body">
+											<div class="bank-block__options" data-pseudo-options="">
+												<button type="button" class="bank-block__option">3 місяці</button>
+												<button type="button" class="bank-block__option">5 місяців</button>
+												<button type="button" class="bank-block__option">7 місяців</button>
+												<button type="button" class="bank-block__option">10 місяців</button>
+												<button type="button" class="bank-block__option is-active">18 місяців</button>
+											</div>
+											<form action="#" class="bank-block__form">
+												<div class="bank-block__field">
+													<input autocomplete="off" type="text" name="payment" placeholder="Сума першого внеску" class="bank-block__input input">
+													<button type="submit" class="bank-block__btn green-btn" disabled>Ввести</button>
+												</div>
+											</form>
+											<div class="bank-block__rows">
+												<div class="bank-block__row">
+													<div class="bank-block__label">Сума в кредит</div>
+													<div class="bank-block__value">11 599 ₴</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Кількість платежів</div>
+													<div class="bank-block__value">17</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Щомісячний платіж</div>
+													<div class="bank-block__value">683 ₴</div>
+												</div>
+											</div>
+											<div class="bank-block__bottom">
+												<a href="#" class="bank-block__btn green-btn btn--fw">Оформити товар щастинами або кредит</a>
+												<div class="bank-block__agreement">Натискаючи на кнопку, ви погоджуєтеся на передачу персональних даних</div>
+											</div>
+										</div>
+									</details>
+									<details class="credit-block__bank bank-block">
+										<summary class="bank-block__header">
+											<div class="bank-block__header-icon">
+												<img src="./assets/img/banks/abank_1.svg" alt="Image" loading="lazy">
+											</div>
+											<div class="bank-block__header-body">
+												<div class="bank-block__header-content">
+													<div class="bank-block__header-title">Плати частинами А-Банк</div>
+													<div class="bank-block__header-info">від 3 до 18 платежів</div>
+												</div>
+												<div class="bank-block__header-descr">
+													<div class="bank-block__header-payment">Без першого платежу</div>
+													<div class="bank-block__header-price">
+														<div class="bank-block__header-amount">645₴</div>
+														<div class="bank-block__header-months">x 18 міс</div>
+													</div>
+												</div>
+											</div>
+											<div class="bank-block__header-arrow">
+												<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M11.9997 13.1717L16.9497 8.22168L18.3637 9.63568L11.9997 15.9997L5.63574 9.63568L7.04974 8.22168L11.9997 13.1717Z" fill="currentColor"></path>
+												</svg>
+											</div>
+										</summary>
+										<div class="bank-block__body">
+											<div class="bank-block__options" data-pseudo-options="">
+												<button type="button" class="bank-block__option">3 місяці</button>
+												<button type="button" class="bank-block__option">5 місяців</button>
+												<button type="button" class="bank-block__option">7 місяців</button>
+												<button type="button" class="bank-block__option">10 місяців</button>
+												<button type="button" class="bank-block__option is-active">18 місяців</button>
+											</div>
+											<form action="#" class="bank-block__form">
+												<div class="bank-block__field">
+													<input autocomplete="off" type="text" name="payment" placeholder="Сума першого внеску" class="bank-block__input input">
+													<button type="submit" class="bank-block__btn green-btn" disabled>Ввести</button>
+												</div>
+											</form>
+											<div class="bank-block__rows">
+												<div class="bank-block__row">
+													<div class="bank-block__label">Сума в кредит</div>
+													<div class="bank-block__value">11 599 ₴</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Кількість платежів</div>
+													<div class="bank-block__value">17</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Щомісячний платіж</div>
+													<div class="bank-block__value">683 ₴</div>
+												</div>
+											</div>
+											<div class="bank-block__bottom">
+												<a href="#" class="bank-block__btn green-btn btn--fw">Оформити товар щастинами або кредит</a>
+												<div class="bank-block__agreement">Натискаючи на кнопку, ви погоджуєтеся на передачу персональних даних</div>
+											</div>
+										</div>
+									</details>
+									<details class="credit-block__bank bank-block">
+										<summary class="bank-block__header">
+											<div class="bank-block__header-icon">
+												<img src="./assets/img/banks/izi.svg" alt="Image" loading="lazy">
+											</div>
+											<div class="bank-block__header-body">
+												<div class="bank-block__header-content">
+													<div class="bank-block__header-title">Плата частинами izibank</div>
+													<div class="bank-block__header-info">від 3 до 18 платежів</div>
+												</div>
+												<div class="bank-block__header-descr">
+													<div class="bank-block__header-payment">Без першого платежу</div>
+													<div class="bank-block__header-price">
+														<div class="bank-block__header-amount">645₴</div>
+														<div class="bank-block__header-months">x 18 міс</div>
+													</div>
+												</div>
+											</div>
+											<div class="bank-block__header-arrow">
+												<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M11.9997 13.1717L16.9497 8.22168L18.3637 9.63568L11.9997 15.9997L5.63574 9.63568L7.04974 8.22168L11.9997 13.1717Z" fill="currentColor"></path>
+												</svg>
+											</div>
+										</summary>
+										<div class="bank-block__body">
+											<div class="bank-block__options" data-pseudo-options="">
+												<button type="button" class="bank-block__option">3 місяці</button>
+												<button type="button" class="bank-block__option">5 місяців</button>
+												<button type="button" class="bank-block__option">7 місяців</button>
+												<button type="button" class="bank-block__option">10 місяців</button>
+												<button type="button" class="bank-block__option is-active">18 місяців</button>
+											</div>
+											<form action="#" class="bank-block__form">
+												<div class="bank-block__field">
+													<input autocomplete="off" type="text" name="payment" placeholder="Сума першого внеску" class="bank-block__input input">
+													<button type="submit" class="bank-block__btn green-btn" disabled>Ввести</button>
+												</div>
+											</form>
+											<div class="bank-block__rows">
+												<div class="bank-block__row">
+													<div class="bank-block__label">Сума в кредит</div>
+													<div class="bank-block__value">11 599 ₴</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Кількість платежів</div>
+													<div class="bank-block__value">17</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Щомісячний платіж</div>
+													<div class="bank-block__value">683 ₴</div>
+												</div>
+											</div>
+											<div class="bank-block__bottom">
+												<a href="#" class="bank-block__btn green-btn btn--fw">Оформити товар щастинами або кредит</a>
+												<div class="bank-block__agreement">Натискаючи на кнопку, ви погоджуєтеся на передачу персональних даних</div>
+											</div>
+										</div>
+									</details>
+									<details class="credit-block__bank bank-block">
+										<summary class="bank-block__header">
+											<div class="bank-block__header-icon">
+												<img src="./assets/img/banks/ukrsib-lg2.svg" alt="Image" loading="lazy">
+											</div>
+											<div class="bank-block__header-body">
+												<div class="bank-block__header-content">
+													<div class="bank-block__header-title">Виплати частинами УКРСИББАНК</div>
+													<div class="bank-block__header-info">від 3 до 18 платежів</div>
+												</div>
+												<div class="bank-block__header-descr">
+													<div class="bank-block__header-payment">Без першого платежу</div>
+													<div class="bank-block__header-price">
+														<div class="bank-block__header-amount">645₴</div>
+														<div class="bank-block__header-months">x 18 міс</div>
+													</div>
+												</div>
+											</div>
+											<div class="bank-block__header-arrow">
+												<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M11.9997 13.1717L16.9497 8.22168L18.3637 9.63568L11.9997 15.9997L5.63574 9.63568L7.04974 8.22168L11.9997 13.1717Z" fill="currentColor"></path>
+												</svg>
+											</div>
+										</summary>
+										<div class="bank-block__body">
+											<div class="bank-block__options" data-pseudo-options="">
+												<button type="button" class="bank-block__option">3 місяці</button>
+												<button type="button" class="bank-block__option">5 місяців</button>
+												<button type="button" class="bank-block__option">7 місяців</button>
+												<button type="button" class="bank-block__option">10 місяців</button>
+												<button type="button" class="bank-block__option is-active">18 місяців</button>
+											</div>
+											<form action="#" class="bank-block__form">
+												<div class="bank-block__field">
+													<input autocomplete="off" type="text" name="payment" placeholder="Сума першого внеску" class="bank-block__input input">
+													<button type="submit" class="bank-block__btn green-btn" disabled>Ввести</button>
+												</div>
+											</form>
+											<div class="bank-block__rows">
+												<div class="bank-block__row">
+													<div class="bank-block__label">Сума в кредит</div>
+													<div class="bank-block__value">11 599 ₴</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Кількість платежів</div>
+													<div class="bank-block__value">17</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Щомісячний платіж</div>
+													<div class="bank-block__value">683 ₴</div>
+												</div>
+											</div>
+											<div class="bank-block__bottom">
+												<a href="#" class="bank-block__btn green-btn btn--fw">Оформити товар щастинами або кредит</a>
+												<div class="bank-block__agreement">Натискаючи на кнопку, ви погоджуєтеся на передачу персональних даних</div>
+											</div>
+										</div>
+									</details>
+									<details class="credit-block__bank bank-block">
+										<summary class="bank-block__header">
+											<div class="bank-block__header-icon">
+												<img src="./assets/img/banks/mono.svg" alt="Image" loading="lazy">
+											</div>
+											<div class="bank-block__header-body">
+												<div class="bank-block__header-content">
+													<div class="bank-block__header-title">Покупка частинами Монобанк</div>
+													<div class="bank-block__header-info">від 3 до 7 платежів</div>
+												</div>
+												<div class="bank-block__header-descr">
+													<div class="bank-block__header-payment">Без першого платежу</div>
+													<div class="bank-block__header-price">
+														<div class="bank-block__header-amount">1 657₴</div>
+														<div class="bank-block__header-months">x 7 міс</div>
+													</div>
+												</div>
+											</div>
+											<div class="bank-block__header-arrow">
+												<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M11.9997 13.1717L16.9497 8.22168L18.3637 9.63568L11.9997 15.9997L5.63574 9.63568L7.04974 8.22168L11.9997 13.1717Z" fill="currentColor"></path>
+												</svg>
+											</div>
+										</summary>
+										<div class="bank-block__body">
+											<div class="bank-block__options" data-pseudo-options="">
+												<button type="button" class="bank-block__option">3 місяці</button>
+												<button type="button" class="bank-block__option">5 місяців</button>
+												<button type="button" class="bank-block__option is-active">7 місяців</button>
+												яців
+											</div>
+											<form action="#" class="bank-block__form">
+												<div class="bank-block__field">
+													<input autocomplete="off" type="text" name="payment" placeholder="Сума першого внеску" class="bank-block__input input">
+													<button type="submit" class="bank-block__btn green-btn" disabled>Ввести</button>
+												</div>
+											</form>
+											<div class="bank-block__rows">
+												<div class="bank-block__row">
+													<div class="bank-block__label">Сума в кредит</div>
+													<div class="bank-block__value">11 599 ₴</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Кількість платежів</div>
+													<div class="bank-block__value">7</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Щомісячний платіж</div>
+													<div class="bank-block__value">1 657₴</div>
+												</div>
+											</div>
+											<div class="bank-block__bottom">
+												<a href="#" class="bank-block__btn green-btn btn--fw">Оформити товар щастинами або кредит</a>
+												<div class="bank-block__agreement">Натискаючи на кнопку, ви погоджуєтеся на передачу персональних даних</div>
+											</div>
+										</div>
+									</details>
+									<details class="credit-block__bank bank-block">
+										<summary class="bank-block__header">
+											<div class="bank-block__header-icon">
+												<img src="./assets/img/banks/globus.svg" alt="Image" loading="lazy">
+											</div>
+											<div class="bank-block__header-body">
+												<div class="bank-block__header-content">
+													<div class="bank-block__header-title">GlobusPlus ГЛОБУС БАНК</div>
+													<div class="bank-block__header-info">від 3 до 7 платежів</div>
+												</div>
+												<div class="bank-block__header-descr">
+													<div class="bank-block__header-payment">Без першого платежу</div>
+													<div class="bank-block__header-price">
+														<div class="bank-block__header-amount">1 657₴</div>
+														<div class="bank-block__header-months">x 7 міс</div>
+													</div>
+												</div>
+											</div>
+											<div class="bank-block__header-arrow">
+												<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M11.9997 13.1717L16.9497 8.22168L18.3637 9.63568L11.9997 15.9997L5.63574 9.63568L7.04974 8.22168L11.9997 13.1717Z" fill="currentColor"></path>
+												</svg>
+											</div>
+										</summary>
+										<div class="bank-block__body">
+											<div class="bank-block__options" data-pseudo-options="">
+												<button type="button" class="bank-block__option">3 місяці</button>
+												<button type="button" class="bank-block__option">5 місяців</button>
+												<button type="button" class="bank-block__option is-active">7 місяців</button>
+												яців
+											</div>
+											<form action="#" class="bank-block__form">
+												<div class="bank-block__field">
+													<input autocomplete="off" type="text" name="payment" placeholder="Сума першого внеску" class="bank-block__input input">
+													<button type="submit" class="bank-block__btn green-btn" disabled>Ввести</button>
+												</div>
+											</form>
+											<div class="bank-block__rows">
+												<div class="bank-block__row">
+													<div class="bank-block__label">Сума в кредит</div>
+													<div class="bank-block__value">11 599 ₴</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Кількість платежів</div>
+													<div class="bank-block__value">7</div>
+												</div>
+												<div class="bank-block__row">
+													<div class="bank-block__label">Щомісячний платіж</div>
+													<div class="bank-block__value">1 657₴</div>
+												</div>
+											</div>
+											<div class="bank-block__bottom">
+												<a href="#" class="bank-block__btn green-btn btn--fw">Оформити товар щастинами або кредит</a>
+												<div class="bank-block__agreement">Натискаючи на кнопку, ви погоджуєтеся на передачу персональних даних</div>
+											</div>
+										</div>
+									</details>
+								</div>
+							</div>
+							<div class="credit-block__bottom">
+								<a href="#" class="credit-block__btn green-btn btn--fw">Перейти до кошику</a>
 							</div>
 						</div>
 					</div>

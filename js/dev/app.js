@@ -13358,6 +13358,22 @@ if (toggleActiveParentBtns.length) {
     });
   });
 }
+const pseudoOptions = document.querySelectorAll("[data-pseudo-options]");
+if (pseudoOptions.length) {
+  pseudoOptions.forEach((block) => {
+    const options = block.querySelectorAll("button, a");
+    const setActive = (current) => {
+      options.forEach((item) => {
+        item.classList.toggle("is-active", item === current);
+      });
+    };
+    options.forEach((item) => {
+      item.addEventListener("click", (e) => {
+        setActive(item);
+      });
+    });
+  });
+}
 window.customMiniSelect = function() {
   const selParents = document.querySelectorAll("[data-sel-block]");
   if (!selParents.length) return;
